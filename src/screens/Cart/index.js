@@ -2,6 +2,7 @@ import React from 'react';
 import { FlatList } from 'react-native';
 import Item from './Item';
 import PageDefault from '../../components/PageDefault';
+import CartStatus from '../../components/CartStatus';
 
 const services = [
   {
@@ -28,7 +29,9 @@ const services = [
 ];
 
 export default function Cart() {
+  const total = services.reduce((soma, { price, quantity }) => soma + (price * quantity), 0);
   return <PageDefault>
+    <CartStatus total={total} />
     <FlatList
       data={services}
       renderItem={({ item }) => <Item {...item} />}
