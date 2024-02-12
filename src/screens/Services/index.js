@@ -1,8 +1,6 @@
 import React from 'react';
 import { FlatList } from 'react-native';
 import Item from './Item';
-import globalSyles from '../../styles'
-import PageDefault from '../../components/PageDefault';
 
 const services = [
   {

@@ -16,7 +16,7 @@ export default function CartStatus({ total }) {
       </Text>
     </View>
     <View style={styles.button}>
-      <Button amount='Concluir Pedido' />
+      <Button amount='Concluir Pedido' invert />
     </View>
   </View>
 }

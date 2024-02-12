@@ -3,7 +3,7 @@ import { colors } from '../../styles';
 
 export default StyleSheet.create({
   content: {
-    backgroundColor: colors.orange,
+    backgroundColor: colors.purple,
     flexDirection: 'row',
     justifyContent: 'space-around',
     alignItems: 'center',
@@ -22,7 +22,7 @@ export default StyleSheet.create({
     fontSize: 18,
     fontWeight: 'bold',
     marginVertical: 6,
-    color: colors.purple,
+    color: colors.orange,
   },
   button: {
     flexGrow: 1,

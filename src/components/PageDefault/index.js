@@ -1,5 +1,5 @@
 import React from "react";
-import { SafeAreaView, StatusBar, FlatList, KeyboardAvoidingView, Platform } from 'react-native';
+import { SafeAreaView, StatusBar, KeyboardAvoidingView, Platform } from 'react-native';
 
 import globalSyles, { colors } from '../../styles'
 import styles from './styles';
