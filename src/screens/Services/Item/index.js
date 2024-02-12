@@ -49,7 +49,7 @@ export default function Item({ name, price, description }) {
             }</Text>
           </View>
         </View>
-        <Button amount="Adicionar" action={() => { }} />
+        <Button amount="Adicionar ao Carrinhho" action={() => { }} />
       </View>
     }
     <View style={styles.divisor} />
