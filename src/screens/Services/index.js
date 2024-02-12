@@ -26,11 +26,11 @@ const services = [
 ];
 
 export default function Services() {
-  return <PageDefault style={globalSyles.toFillIn}>
+  return <>
     <FlatList
       data={services}
       renderItem={({ item }) => <Item {...item} />}
       keyExtractor={({ id }) => String(id)}
     />
-  </PageDefault>
+  </>
 }
